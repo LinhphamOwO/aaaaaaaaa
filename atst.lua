@@ -4,7 +4,7 @@ local function serverhop(player)
     print("[ANTI-STAFF] BIG Games staff (" .. player.Name ..  ") is in the server! Waiting for " .. tostring(timeToWait) .. " seconds before server hopping...")
     wait(timeToWait)
     local success, _ = pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/fdvll/pet-simulator-99/main/serverhop.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LinhphamOwO/aaaaaaaaa/main/hop.lua"))()
     end)
 
     if not success then
