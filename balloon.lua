@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/fdvll/pet-simulator-99/main/waitForGameLoad.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LinhphamOwO/aaaaaaaaa/main/waitgame.lua"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fdvll/pet-simulator-99/main/antiStaff.lua"))()
 local Workspace = game:GetService("Workspace")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -219,4 +219,4 @@ if _G.STAFF_DETECTED then
 end
 print("Server hopping in " .. tostring(getgenv().SERVER_HOP_DELAY) .. " seconds")
 task.wait(getgenv().SERVER_HOP_DELAY)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/fdvll/pet-simulator-99/main/serverhop.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LinhphamOwO/aaaaaaaaa/main/hop.lua"))()
