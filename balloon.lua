@@ -1,5 +1,5 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LinhphamOwO/aaaaaaaaa/main/waitgame.lua"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/fdvll/pet-simulator-99/main/antiStaff.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LinhphamOwO/aaaaaaaaa/main/atst.lua"))()
 local Workspace = game:GetService("Workspace")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Library = ReplicatedStorage:WaitForChild("Library")
