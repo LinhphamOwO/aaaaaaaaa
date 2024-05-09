@@ -4,7 +4,7 @@ getgenv().AccountFilter = {
 }
 getgenv().config = {
     ["Team"] = "Pirates",
-    ["FPS Boost"] = false,
+    ["FPS Boost"] = true,
     ["LocalPlayer"] = {
         ["Ken Haki"] = true, ["Invisible"] = true, ["Click Delay"] = 0.1,
         ["Panic Mode"] = {["Skip Player"] = false, ["Run"] = 4500, ["Max"] = 5000}
@@ -17,8 +17,8 @@ getgenv().config = {
         ["Chatkill"] = {["Enabled"] = false, ["Text"] = {""}},
         ["FPS Locker"] = {["Enabled"] = false, ["Value"] = 12},
         ["Bounty Lock"] = {["Enabled"] = true, ["Value"] = 30000000},
-        ["Ignore"] = {["Buddha Users"] = false, ["Portal Users"] = false, ['Some Annoying V4'] = false},
-        ["Stats"] = {["Auto Reset Stat If Doesnt Match"] = false, ["Points"] = "Sword"},
+        ["Ignore"] = {["Buddha Users"] = false, ["Portal Users"] = true, ['Some Annoying V4'] = false},
+        ["Stats"] = {["Auto Reset Stat If Doesnt Match"] = true, ["Points"] = "Fruit"},
     },
     ["Skills"] = {
         ["Melee"] = {["Time"] = 1, ["Enabled"] = true,
