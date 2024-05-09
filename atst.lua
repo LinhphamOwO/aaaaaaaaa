@@ -13,7 +13,7 @@ getgenv().config = {
         ["Cam Farm"] = true,
         ["White Screen"] = false,
         ["Region_Hop"] = {["Enabled"] = true, ["Value"] = "United States"},
-        ["Webhook"] = {["Enabled"] = true, ["URL"] = {["Discord"] = "", ["Thumbnail"] = "default"}},
+        ["Webhook"] = {["Enabled"] = true, ["URL"] = {["Discord"] = "https://discord.com/api/webhooks/1225696833662226542/iuoHKW4uA3LiGW-8AFbRsJKl1h3Po5QKZ7_B5JxAWi5Gvla913jCSP2uraJHfzbkBMQB", ["Thumbnail"] = "default"}},
         ["Chatkill"] = {["Enabled"] = false, ["Text"] = {""}},
         ["FPS Locker"] = {["Enabled"] = false, ["Value"] = 12},
         ["Bounty Lock"] = {["Enabled"] = true, ["Value"] = 30000000},
