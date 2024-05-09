@@ -26,12 +26,12 @@ getgenv().config = {
             ["X"] = {["Enabled"] = true, ["HoldTime"] = 0},
             ["C"] = {["Enabled"] = true, ["HoldTime"] = 0}
         },
-        ["Fruit"] = {["Time"] = 0, ["Enabled"] = false,
-            ["Z"] = {["Enabled"] = false, ["HoldTime"] = 0}, 
-            ["X"] = {["Enabled"] = false, ["HoldTime"] = 0},
-            ["C"] = {["Enabled"] = false, ["HoldTime"] = 0}, 
+        ["Fruit"] = {["Time"] = 0, ["Enabled"] = true,
+            ["Z"] = {["Enabled"] = true, ["HoldTime"] = 0}, 
+            ["X"] = {["Enabled"] = true, ["HoldTime"] = 0},
+            ["C"] = {["Enabled"] = true, ["HoldTime"] = 0}, 
             ["V"] = {["Enabled"] = false, ["HoldTime"] = 0},
-            ["F"] = {["Enabled"] = false, ["HoldTime"] = 0}
+            ["F"] = {["Enabled"] = true, ["HoldTime"] = 0}
         },
         ["Sword"] = {["Time"] = 1, ["Enabled"] = true,
             ["Z"] = {["Enabled"] = true, ["HoldTime"] = 0.25},
@@ -43,4 +43,4 @@ getgenv().config = {
         }
     }
 }
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/obfchx/Gui/main/hehek.txt")))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/LinhphamOwO/aaaaaaaaa/main/auto.lua")))()
