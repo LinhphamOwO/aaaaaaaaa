@@ -13,7 +13,7 @@ getgenv().config = {
         ["Cam Farm"] = true,
         ["White Screen"] = false,
         ["Region_Hop"] = {["Enabled"] = true, ["Value"] = "United States"},
-        ["Webhook"] = {["Enabled"] = true, ["URL"] = {["Discord"] = "https://discord.com/api/webhooks/1218470029662748682/j4QAvhUc9FuE3etTSJgqSObFWEc_goUIyhoEx75--FkxngajpE6Sya9eouIF2lA637Jy", ["Thumbnail"] = "default"}},
+        ["Webhook"] = {["Enabled"] = true, ["URL"] = {["Discord"] = "", ["Thumbnail"] = "default"}},
         ["Chatkill"] = {["Enabled"] = false, ["Text"] = {""}},
         ["FPS Locker"] = {["Enabled"] = false, ["Value"] = 12},
         ["Bounty Lock"] = {["Enabled"] = true, ["Value"] = 30000000},
@@ -21,8 +21,8 @@ getgenv().config = {
         ["Stats"] = {["Auto Reset Stat If Doesnt Match"] = false, ["Points"] = "Sword"},
     },
     ["Skills"] = {
-        ["Melee"] = {["Time"] = 1.5, ["Enabled"] = true,
-            ["Z"] = {["Enabled"] = true, ["HoldTime"] = 0.5}, 
+        ["Melee"] = {["Time"] = 1, ["Enabled"] = true,
+            ["Z"] = {["Enabled"] = true, ["HoldTime"] = 0.7}, 
             ["X"] = {["Enabled"] = true, ["HoldTime"] = 0},
             ["C"] = {["Enabled"] = true, ["HoldTime"] = 0}
         },
@@ -33,7 +33,7 @@ getgenv().config = {
             ["V"] = {["Enabled"] = false, ["HoldTime"] = 0},
             ["F"] = {["Enabled"] = true, ["HoldTime"] = 0}
         },
-        ["Sword"] = {["Time"] = 1, ["Enabled"] = true,
+        ["Sword"] = {["Time"] = 1, ["Enabled"] = false,
             ["Z"] = {["Enabled"] = true, ["HoldTime"] = 0.25},
             ["X"] = {["Enabled"] = true, ["HoldTime"] = 0.25},
         },
